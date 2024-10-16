@@ -24,6 +24,7 @@ public class DrawBullsEyesDebugApp {
 				} else {
 					break;
 				}
+	
 			}
 			System.exit(0);
 		});

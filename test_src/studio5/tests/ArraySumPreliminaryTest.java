@@ -24,10 +24,11 @@ public class ArraySumPreliminaryTest {
 	@Test
 	public void testArrayLength1() {
 		int[] values = { 42 };
-		int actual = Methods.arraySum(values);
-		int expected = values[0];
-		assertEquals(expected, actual);
-	}
+			int actual = Methods.arraySum(values);
+			int expected = values[0];
+			assertEquals(expected, actual);
+		}
+	
 
 	@Test
 	public void testArrayLength2() {
